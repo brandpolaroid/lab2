@@ -1,0 +1,7 @@
+---
+- name: Install and setup nginx
+  apt:
+    name=nginx
+    state=latest
+  notify:
+    - nginx systemd

@@ -1,0 +1,6 @@
+---
+- name: nginx systemd
+  systemd:
+    name: nginx
+    endbled: yes
+    state: started
